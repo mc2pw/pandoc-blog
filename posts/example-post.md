@@ -20,3 +20,12 @@ Nullam volutpat tincidunt ligula, volutpat porta nunc ultrices a. Etiam interdum
 Nam lectus justo, eleifend sed rhoncus eu, ultricies non urna. Sed eu libero erat. Sed libero eros, congue non lorem quis, pharetra euismod est. Pellentesque id ante a libero pellentesque dapibus. Integer ut euismod dolor. Etiam scelerisque, metus ac molestie rhoncus, neque orci finibus nulla, ut scelerisque ipsum lacus laoreet ipsum. Morbi sit amet consectetur neque. Integer euismod velit id erat viverra tristique. Sed sagittis libero non tempor vestibulum. Pellentesque congue a quam vitae efficitur. Aenean a consectetur purus, et convallis dui. Quisque luctus nunc id augue bibendum ullamcorper.
 
 By the way, [this post is in the JSON Feed.](../feed.json)
+
+This is the associativity of a monad.
+
+$$\require{AMScd}
+\begin{CD}
+TTT @>{\mu T}>> TT;\\
+@V{T\mu}VV @V{\mu}VV \\
+TT @>{\mu}>> T;
+\end{CD}$$
