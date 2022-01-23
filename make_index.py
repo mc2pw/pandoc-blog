@@ -11,7 +11,7 @@ import pytz
 import jsonfeed as jf
 
 MARKDOWN_POSTS_PATH = "./posts"
-STATIC_FILES_PATH = "./gen/"
+STATIC_FILES_PATH = "./p/"
 
 isNaive = lambda d: d.tzinfo is None or d.tzinfo.utcoffset(d) is None
 
