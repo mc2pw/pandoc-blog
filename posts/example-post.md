@@ -1,8 +1,9 @@
 ---
 title: My First Blog Post
 author: Lukas Schwab
-date: 2020-02-17T00:07:54Z
+date: 2022-01-23T22:01:01.313Z
 abstract: "Click on the link to view this example post for [pandoc-blog](https://github.com/lukasschwab/pandoc-blog). Think it contains something interesting? Nah, just a bunch of Lorem Ipsum."
+versions: "https://github.com/mc2pw/pandoc-blog/blob/master/posts/example-post.md"
 ---
 
 Lorem ipsum dolor sit amet, *consectetur* adipiscing elit. Phasellus nisi lorem, efficitur id auctor in, laoreet sed lorem. In lobortis mauris nec quam facilisis laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium ipsum magna, in laoreet arcu dictum at. Nulla sed sapien sed lacus ultricies lacinia. Ut iaculis quam vitae est sodales efficitur. Aenean mauris quam, euismod sit **amet velit efficitur,** malesuada porta orci. Nam sit amet tempus metus, ac vulputate tortor. Etiam mauris elit, euismod a urna in, placerat efficitur dui. Pellentesque luctus ornare justo eu commodo. Vivamus ligula quam, vulputate at justo nec, pretium cursus est. Curabitur condimentum eu neque nec facilisis. Etiam a dui vel justo feugiat bibendum. Pellentesque eu ornare quam. Cras lectus erat, vehicula sit amet eros sit amet, sagittis posuere dui. Curabitur suscipit, orci nec tempor posuere, lacus leo tempor felis, at rutrum ligula mauris pretium eros.[^1]

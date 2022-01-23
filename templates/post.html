@@ -55,9 +55,14 @@ $endif$
 $for(author)$
 <p class="author">$author$</p>
 $endfor$
+<p class="metadata">
 $if(date)$
-<p class="date">$date$</p>
+<span class="date">$date$</span>
 $endif$
+$if(versions)$
+ - <span class="versions"><a href="$versions$">versions</a></span>
+$endif$
+</p>
 </header>
 $endif$
 $if(toc)$
