@@ -2,7 +2,7 @@ POSTS=$(shell find posts/*)
 # OUT contains all names of static HTML targets corresponding to markdown files
 # in the posts directory.
 OUT=$(patsubst posts/%.md, p/%.html, $(POSTS))
-MATHJAX_URL="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+MATHJAX_URL="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 all: $(OUT) index.html
 
