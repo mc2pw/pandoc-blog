@@ -1,7 +1,7 @@
 body {
   width: 650px;
   max-width: 90%;
-  margin: 3em auto;
+  margin: 3em auto 0;
 }
 
 .title {
@@ -55,4 +55,16 @@ sub {
 
 .metadata {
   font-family: mono;
+  opacity: .5;
+}
+
+.footer {
+  background: #ddd;
+  padding: 1.5em;
+  margin-top: 5em;
+}
+
+a.home {
+  text-decoration: none;
+  color: inherit;
 }
