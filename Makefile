@@ -7,11 +7,11 @@ MATHJAX_URL="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MM
 all: $(OUT) index.html
 
 p/%.html: posts/%.md
-	pandoc -f markdown+fenced_divs -s $< -o $@ --template templates/post.html --css="../styles/common.css" --mathjax=$(MATHJAX_URL)
+	pandoc -f markdown+fenced_divs -s $< -o $@ --template templates/post.html --css="../styles/pandoc.css" --mathjax=$(MATHJAX_URL)
 
 index.html: $(OUT) make_index.py
 	python3 make_index.py
-	pandoc -s index.md -o index.html --template templates/index.html  --css="./styles/common.css" --css="./styles/index.css" --metadata-file="./index.yaml"
+	pandoc -s index.md -o index.html --template templates/index.html  --css="./styles/pandoc.css" --css="./styles/index.css" --metadata-file="./index.yaml"
 	rm index.md
 
 # Shortcuts

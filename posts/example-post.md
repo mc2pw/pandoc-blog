@@ -26,7 +26,7 @@ This is the associativity of a monad.
 
 $$\require{AMScd}
 \begin{CD}
-TTT @>{\mu T}>> TT;\\
+TTT @>{\mu T}>> TT\\
 @V{T\mu}VV @V{\mu}VV \\
-TT @>{\mu}>> T;
+TT @>{\mu}>> T
 \end{CD}$$
